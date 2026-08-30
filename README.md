@@ -66,8 +66,7 @@ Before uploading the code, ensure you have the following installed in your Ardui
 ## 🧪 Part 4: Testing the Project
 
 ### 1. Patient Preparation
-Do a head-to-toe assessment on your patient for a better result. Ensure the skin is clean before applying the electrode pads (usually Right Arm, Left Arm, and Right Leg). 
-*Checklist used for this project:* [Checklist_v2.xlsx](https://github.com/TOXIC-MM/ECG-With-ESP-Final/blob/main/Checklist_v2.xlsx)
+Ensure the skin is clean before applying the electrode pads (usually Right Arm, Left Arm, and Right Leg). 
 
 ### 2. Live Monitoring
 Once the pads are connected, look at the OLED screen. You should see the Leads status change to "OK" and the BPM start calculating. 
@@ -78,11 +77,13 @@ The raw data recorded via the Serial port can be processed to extract deep insig
 
 **Example 1: Normal vs. Stressed State**
 Below is a graph recorded during testing. The first section shows the patient relaxed, while the red peaks show where the algorithm detected a stress-induced heart rate spike.
-![Stressed Analysis 1](https://raw.githubusercontent.com/TOXIC-MM/ECG-With-ESP-Final/main/bpm_stress_analysis.png)
+![Analysis on Person 1-1](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/1/1.png)
+![Analysis on Person 1-2](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/1/2.png)
+![Analysis on Person 1-3](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/1/3.png)
+![Analysis on Person 1-4](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/1/4.png)
+![Analysis on Person 2-1](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/2/1.png)
+![Analysis on Person 2-2](https://github.com/Mabini-AIO/ECG-With-ESP-V2/blob/main/Processed/2/2.png)
 
-**Example 2: Continuous Stress Monitoring**
-Another dataset showing advanced peak detection and continuous threshold monitoring.
-![Stressed Analysis 2](https://raw.githubusercontent.com/TOXIC-MM/ECG-With-ESP-Final/main/bpm_stress_analysis_new.png)
 
 ---
-*Created by [TOXIC-MM]*
+*Created by Mabini.AIO*
